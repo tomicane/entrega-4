@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PokeAPI NUCBA</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Input de tipo número -->
+    <label for="numeroInput">Ingresa el número del Pokémon:</label>
+    <input type="number" id="numeroInput" />
+
+    <!-- Botón -->
+    <button onclick="buscarPokemon()">Buscar Pokémon</button>
+
+    <!-- Contenedor para la tarjeta del Pokémon o mensajes de error -->
+    <div id="pokemon-card"></div>
+    <div id="error-message" class="error-message"></div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
